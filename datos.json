@@ -1,39 +1,35 @@
  [
                 {
-          "titulo": "UX/UI",
-          "categoria": "Interfaz para app de ejercicio",
+          "titulo": "Interfaz para app de ejercicio",
+          "categoria": ["UX/UI", "App"],
           "imagen": "images/10.png",
-          "alt": ["UX/UI", "App"]
+          
         },
         {
-          "titulo": "Branding",
-          "categoria": "Identidad de marca - cafetería",
+          "titulo": "Identidad de marca - cafetería",
+          "categoria": ["Marca", "Identidad", "Branding"],
           "imagen": "images/1.png",
-          "alt": ["Marca", "Identidad"]
+          
         },
         {
          "titulo": "Llaca chilena",
-          "categoria": "Ilustración para academia",
+          "categoria": "Ilustración",
           "imagen": "images/5.png",
-          "alt": ["Ilustración"]
         },
         {
           "titulo": "Salas de música",
-          "categoria": "Rediseño de espacio",
+          "categoria": ["Diseño", "Espacios"],
           "imagen": "images/3.png",
-          "alt": ["Diseño", "Espacios"]
         },
         {
           "titulo": "Shoenstatt Chile",
-          "categoria": "Logotipo para movimiento católico",
+          "categoria": ["Diseño", "Logotipo", "Identidad"],
           "imagen": "images/9.png",
-          "alt": ["Diseño", "Logotipo", "Identidad"]
         },
         {
           "titulo": "¡Conocenos!",
-          "categoria": "Prototipo de página web",
+          "categoria": ["Web", "Identidad"],
           "imagen": "images/4.png",
-          "alt": ["Web", "Identidad"]
         },
          {
           "titulo": "Cafetería Baume",
@@ -43,14 +39,12 @@
         },
         {
           "titulo": "Sufikotoshokureto",
-          "categoria": "Packaging de bombones",
+          "categoria": ["Packaging", "Marca", "Identidad"],
           "imagen": "images/2.png",
-          "alt": ["Packaging", "Marca", "Identidad"]
         },
          {
-          "titulo": "Visuales",
-          "categoria": "Portadas en movimiento de concierto",
+          "titulo": "Portadas en movimiento de concierto",
+          "categoria": ["Diseño", "Creatividad"],
           "imagen": "images/12.png",
-          "alt": ["Diseño", "Creatividad"]
         }
             ]
