@@ -6,24 +6,37 @@ async function datos(raw) {
         let trabajos = await consulta.json();
         console.log(trabajos);
         trabajos.forEach((trabajo) => {
-            portfolio.innerHTML += `
+            
+            function generarBotones(categorias) {
+                let botonesHTML = '';
+                if (Array.isArray(categorias)) { 
+                    categorias.forEach(categoria => {
+                        botonesHTML += `<button type="button" class="btn btn-sm btn-outline-secondary">${categoria}</button>\n`;
+                    });
+                } else { 
+                    botonesHTML += `<button type="button" class="btn btn-sm btn-outline-secondary">${categorias}</button>\n`;
+                }
+                return botonesHTML;
+            }
+            // FIN DE LA FUNCIÓN CORREGIDA
 
-                            <div class="col">
-                                <div class="card shadow-sm">
-                                <img src="${trabajo.imagen}" class="card-img-top">
-                                <div class="card-body">
-                                <p class="card-text">${trabajo.titulo}</p>
-                                <div class="d-flex
-                                justify-content-between
-                                align-items-center">
+            const botonesCategoria = generarBotones(trabajo.categoria);
+
+            portfolio.innerHTML += `
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="${trabajo.imagen}" class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">${trabajo.titulo}</p>
+                            <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">${trabajo.categoria}</button>
+                                    ${botonesCategoria}
                                 </div>
                                 <small class="text-body-secondary">Reciente </small>
-             </div>
-             </div>
-            </div>
-            </div>`;
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
         });
     } catch (error) {
         console.error("Error al cargar los datos:", error);
