@@ -2,48 +2,49 @@
     {
       "titulo": "Interfaz para app de ejercicio",
       "categoria": ["UX/UI", "App"],
-      "imagen": "images/10.png"
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/10.png"
     },
     {
       "titulo": "Identidad de marca - cafetería",
       "categoria": ["Marca", "Identidad", "Branding"],
-      "imagen": "images/1.png"
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/1.png"
     },
     {
      "titulo": "Llaca chilena",
       "categoria": "Ilustración",
-      "imagen": "images/5.png"
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/5.png"
     },
     {
       "titulo": "Salas de música",
       "categoria": ["Diseño", "Espacios"],
-      "imagen": "images/3.png"
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/3.png"
     },
     {
       "titulo": "Shoenstatt Chile",
       "categoria": ["Diseño", "Logotipo", "Identidad"],
-      "imagen": "images/9.png"
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/9.png"
     },
     {
       "titulo": "¡Conocenos!",
       "categoria": ["Web", "Identidad"],
-      "imagen": "images/4.png"
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/4.png"
     },
      {
       "titulo": "Cafetería Baume",
       "categoria": "Prototipo de página web",
-      "imagen": "images/11.png",
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/11.png",
       "alt": ["Web", "Identidad"]
     },
     {
       "titulo": "Sufikotoshokureto",
       "categoria": ["Packaging", "Marca", "Identidad"],
-      "imagen": "images/2.png"
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/2.png"
     },
      {
       "titulo": "Portadas en movimiento de concierto",
       "categoria": ["Diseño", "Creatividad"],
-      "imagen": "images/12.png"
+      "imagen": "https://github.com/Loubingui/Clase_10/blob/main/images/12.png"
     }
 
 ]
+
