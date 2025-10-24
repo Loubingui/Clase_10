@@ -4,7 +4,7 @@ async function datos(raw) {
   try {
     let consulta = await fetch(raw);
     let resultado = await consulta.json();
-    let trabajos = resultado; 
+    let trabajos = resultado. data; 
 
     console.log(trabajos); 
 
@@ -45,3 +45,4 @@ async function datos(raw) {
 }
 
 datos("https://api.myjson.online/v1/records/2b44d1c5-e907-43ac-83bc-0a2fa65e7417");
+
