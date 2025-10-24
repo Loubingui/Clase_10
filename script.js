@@ -44,6 +44,7 @@ async function datos(raw) {
 }
 
 
-datos("https://raw.githubusercontent.com/Loubingui/Clase_10/refs/heads/main/datos.json");
+datos("https://api.myjson.online/v1/records/2b44d1c5-e907-43ac-83bc-0a2fa65e7417");
+
 
 
